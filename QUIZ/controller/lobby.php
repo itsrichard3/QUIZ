@@ -4,6 +4,6 @@
         $_SESSION['pseudo'] = $_POST['pseudo'];
         header('Location: ./quiz.php');
     } else {
-        include_once("../views/index.php");
+        include_once("../views/quiz.php");
     }
 ?>
